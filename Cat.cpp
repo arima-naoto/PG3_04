@@ -17,5 +17,5 @@ Cat::~Cat(){
 void Cat::Meowing() {
 
 	///文章をprintf関数で出力する
-	printf("猫は「にゃー」と泣きます\n");
+	printf("猫は「にゃー」と鳴きます\n");
 }
