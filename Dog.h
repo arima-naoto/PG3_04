@@ -1,27 +1,26 @@
 #pragma once
-#include <stdio.h>
+#include "Animal.h"
 
 /// <summary>
-/// Animalクラスの作成
+/// AnimalクラスをポリモーフィズムしたDogクラスを作成
 /// </summary>
-class Animal
+class Dog : public Animal
 {
 public://メンバ関数
 
 	/// <summary>
 	/// コンストラクタ
 	/// </summary>
-	Animal();
+	Dog();
 
 	/// <summary>
 	/// デストラクタ
 	/// </summary>
-	virtual ~Animal();
+	~Dog() override;
 
 	/// <summary>
-	/// 動物の鳴き声のメンバ関数を用意
+	/// 犬の鳴き声のメンバ関数を用意
 	/// </summary>
-	virtual void Meowing();
-
+	void Meowing() override;
 };
 

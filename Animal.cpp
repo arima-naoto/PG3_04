@@ -1,16 +1,16 @@
 #include "Animal.h"
 
 /// <summary>
-/// åˆæœŸåŒ–å‡¦ç†
+/// ‰Šú‰»ˆ—
 /// </summary>
 Animal::Animal(){}
 
 /// <summary>
-/// deleteå‡¦ç†
+/// deleteˆ—
 /// </summary>
 Animal::~Animal() {}
 
 /// <summary>
-/// å‹•ç‰©ã®é³´ãå£°ã®ãƒ¡ãƒ³ãƒé–¢æ•°ã®å®šç¾©
+/// “®•¨‚Ì–Â‚«º‚Ìƒƒ“ƒoŠÖ”‚Ì’è‹`
 /// </summary>
 void Animal::Meowing(){}
