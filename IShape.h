@@ -16,7 +16,7 @@ public:
 	/// <summary>
 	/// デストラクタ
 	/// </summary>
-	virtual~IShape();
+	virtual~IShape() = 0;
 
 	/// <summary>
 	/// 面積を求めるメンバ関数Sizeを用意
